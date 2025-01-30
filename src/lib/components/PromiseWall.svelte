@@ -23,7 +23,7 @@
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
       {#each $promises as promise, i}
         <div 
-          class="bg-pink-100 p-3 rounded shadow"
+          class="bg-pink-100 p-3 rounded shadow text-pink-600"
           in:fly="{{ y: 20, duration: 300, delay: i * 100 }}"
         >
           {promise}
@@ -34,11 +34,11 @@
       <input
         bind:value={newPromise}
         placeholder="Adicione uma nova promessa..."
-        class="flex-grow border rounded-l px-3 py-2 focus:outline-none focus:ring-2 focus:ring-pink-300"
+        class=" text-pink-600 flex-grow border rounded-l px-3 py-2 focus:outline-none focus:ring-2 focus:ring-pink-300"
       />
       <button
         on:click={addPromise}
-        class="bg-pink-500 text-white px-4 py-2 rounded-r hover:bg-pink-600 transition-colors"
+        class="bg-pink-500 text-black px-4 py-2 rounded-r hover:bg-pink-600 transition-colors"
       >
         Adicionar
       </button>

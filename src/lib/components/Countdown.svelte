@@ -6,7 +6,7 @@
     let minutes = 0;
     let seconds = 0;
   
-    const targetDate = new Date('2023-12-31T00:00:00'); // Ajuste para a data desejada
+    const targetDate = new Date('2025-02-02T00:00:00'); // Ajuste para a data desejada
   
     function updateCountdown() {
       const now = new Date();

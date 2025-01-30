@@ -10,7 +10,7 @@
   </script>
   
   <div class="mt-8 p-4 bg-white rounded-lg shadow-lg">
-    <h2 class="text-2xl font-bold mb-4 text-pink-600">Our Memories</h2>
+    <h2 class="text-2xl font-bold mb-4 text-pink-600">Galeria</h2>
     <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
       {#each photos as photo}
         <img src={photo || "/placeholder.svg"} alt="Memory" class="w-full h-auto rounded-lg shadow-md hover:scale-105 transition-transform duration-300" />
