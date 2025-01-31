@@ -10,7 +10,7 @@
     let showHint = false;
   
     function validatePassword() {
-      if (password === 'Geovanna weverton') {
+      if (password === 'Geovanna') {
         dispatch('unlock');
       } else {
         error = true;
@@ -55,7 +55,7 @@
       
       {#if showHint}
         <p class="text-sm text-center mt-2 italic text-gray-700" transition:fade>
-          Dica: A senha é composta pelo nome completo de uma pessoa muito especial para mim. 💖
+          Dica: A senha é composta pelo nome de uma pessoa muito especial para mim. 💖
         </p>
       {/if}
   

@@ -33,13 +33,13 @@
     });
   </script>
   
-  <div class="fixed top-0 left-0 w-full h-full pointer-events-none">
+  <div class="z-0 fixed top-0 left-0 w-full h-full pointer-events-none">
     {#each hearts as heart}
       <div
         class="absolute text-pink-500 opacity-50"
         style="left: {heart.x}px; top: {heart.y}px; font-size: {heart.size}px;"
       >
-        💖
+      ❤️
       </div>
     {/each}
   </div>

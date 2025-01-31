@@ -45,13 +45,13 @@
 	  <PasswordForm on:unlock={handleUnlock} />
 	</div>
   {:else}
-	<div class="min-h-screen bg-gradient-to-b from-pink-200 to-pink-400 flex flex-col items-center justify-center text-white overflow-hidden p-4">
+	<div class="z-20 min-h-screen bg-gradient-to-b from-pink-200 to-pink-400 flex flex-col items-center justify-center text-white overflow-hidden p-4">
 	  <div in:fly="{{ y: 200, duration: 1000 }}" out:fade>
 		<ApologyContent />
 	  </div>
   
 	  <div class="mt-8 space-y-4 md:space-y-0 md:space-x-4 flex flex-col md:flex-row">
-		<button
+		<!-- <button
 		  on:click={() => toggleComponent('gallery')}
 		  class="bg-white text-pink-500 px-4 py-2 rounded-full hover:bg-pink-100 transition-colors duration-300"
 		>
@@ -80,9 +80,9 @@
 		  class="bg-white text-pink-500 px-4 py-2 rounded-full hover:bg-pink-100 transition-colors duration-300"
 		>
 		  {showCountdown ? 'Esconder' : 'Mostrar'} Contagem Regressiva
-		</button>
+		</button> -->
 	  </div>
-  
+<!--   
 	  {#if showGallery}
 		<div in:fade out:fade>
 		  <PhotoGallery />
@@ -111,7 +111,7 @@
 		<div in:fade out:fade>
 		  <Countdown />
 		</div>
-	  {/if}
+	  {/if} -->
 	</div>
   {/if}
   
