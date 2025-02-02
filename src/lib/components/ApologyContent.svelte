@@ -33,17 +33,23 @@
       Cada gesto e cada palavra aqui são para te mostrar que me importo de verdade. 💫
     </p>
   </div>
-  <div class="mt-6 text-center">
+  <div class="mt-6 text-center relative">
     <!-- Declaração romântica -->
-    <p class="text-xl font-semibold mb-4 text-white">
-      Eu não preciso de palavras grandes para te dizer o quanto você é importante para mim. Apenas saiba que, quando estou com você, o mundo parece mais bonito.
+    <p class="text-xl font-semibold mb-4 text-white h-[200px] ">
+      "Eu não preciso de palavras grandes para te dizer o quanto você é importante para mim. Apenas saiba que, quando estou com você, o mundo parece mais bonito." 💖
     </p>
     
     <!-- Botão de WhatsApp -->
-    <a href="https://wa.me/+5566992514941" class="bg-green-500 text-white py-2 px-4 rounded-full hover:bg-green-600 transition-colors duration-300">
+    <a href="https://wa.me/5566992514941" class="bg-green-500 mt-[100px] text-white py-2 px-4 rounded-full hover:bg-green-600 transition-colors duration-300 z-10 relative">
       💬 Me chama no WhatsApp
     </a>
+  
+    <!-- Emojis apontando -->
+    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 z-0 animate-bounce mt-[50px] ">
+      <span class="text-white text-4xl">👇</span>
+    </div>
   </div>
+  
   
   
 </div>
