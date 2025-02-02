@@ -57,7 +57,7 @@
     
     {#if showHint}
       <p class="text-sm text-center mt-2 italic text-gray-700" transition:fade>
-        Dica: A senha é composta pelo nome de uma pessoa muito especial para mim. 💖
+        Dica: A senha é composta pelo primeiro nome ou apelido da pessoa que faz meu coração bater mais forte, aquela que ilumina meus dias e que eu amo mais que tudo 💖
       </p>
     {/if}
 
