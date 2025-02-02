@@ -45,7 +45,7 @@
 	  <PasswordForm on:unlock={handleUnlock} />
 	</div>
   {:else}
-	<div class="z-20 min-h-screen bg-gradient-to-b from-pink-200 to-pink-400 flex flex-col items-center justify-center text-white overflow-hidden p-4">
+	<div class="z-20 min-h-screen bg-gradient-to-b from-pink-500 to-pink-400 flex flex-col items-center justify-center text-white overflow-hidden p-4">
 	  <div in:fly="{{ y: 200, duration: 1000 }}" out:fade>
 		<ApologyContent />
 	  </div>

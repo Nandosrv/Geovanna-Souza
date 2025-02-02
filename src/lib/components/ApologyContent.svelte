@@ -7,7 +7,7 @@
   <HeartRain />
   
   <div class="z-20 max-w-2xl mx-auto text-center">
-    <h1 class="text-4xl font-bold mb-6 animate-pulse">
+    <h1 class="text-4xl font-bold mb-6 animate-pulse text-white">
       Desculpas, Geovanna! 💖
     </h1>
     
