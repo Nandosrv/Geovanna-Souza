@@ -32,7 +32,7 @@
       type={showPassword ? 'text' : 'password'}
       bind:value={password}
       class="border p-2 mb-4 w-full rounded text-center"
-      placeholder="Senha"
+      placeholder="G"
     />
     
     <button 
