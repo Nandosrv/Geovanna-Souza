@@ -40,14 +40,14 @@
     </p>
     
     <!-- Botão de WhatsApp -->
-    <a href="https://wa.me/5566992514941" class="bg-green-500 mt-[100px] text-white py-2 px-4 rounded-full hover:bg-green-600 transition-colors duration-300 z-10 relative">
+    <!-- <a href="https://wa.me/5566992514941" class="bg-green-500 mt-[100px] text-white py-2 px-4 rounded-full hover:bg-green-600 transition-colors duration-300 z-10 relative">
       💬 Me chama no WhatsApp
     </a>
-  
+   -->
     <!-- Emojis apontando -->
-    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 z-0 animate-bounce mt-[50px] ">
+    <!-- <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 z-0 animate-bounce mt-[50px] ">
       <span class="text-white text-4xl">👇</span>
-    </div>
+    </div> -->
   </div>
   
   
